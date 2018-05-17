@@ -1,0 +1,649 @@
+{
+    "name": "speed-dating",
+    "resources": [
+        {
+            "name": "speed-dating",
+            "mediatype": "text/csv",
+            "profile": "tabular-data-resource",
+            "encoding": "utf-8",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "has_null",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wave",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "gender",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "age",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "age_o",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_age",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_d_age",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "race",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "race_o",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "samerace",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "importance_same_race",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "importance_same_religion",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_importance_same_race",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_importance_same_religion",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "field",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pref_o_attractive",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pref_o_sincere",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pref_o_intelligence",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pref_o_funny",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pref_o_ambitious",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pref_o_shared_interests",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_pref_o_attractive",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_pref_o_sincere",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_pref_o_intelligence",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_pref_o_funny",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_pref_o_ambitious",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_pref_o_shared_interests",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "attractive_o",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sinsere_o",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "intelligence_o",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "funny_o",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "ambitous_o",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "shared_interests_o",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_attractive_o",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_sinsere_o",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_intelligence_o",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_funny_o",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_ambitous_o",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_shared_interests_o",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "attractive_important",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sincere_important",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "intellicence_important",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "funny_important",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "ambtition_important",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "shared_interests_important",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_attractive_important",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_sincere_important",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_intellicence_important",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_funny_important",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_ambtition_important",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_shared_interests_important",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "attractive",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sincere",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "intelligence",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "funny",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "ambition",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_attractive",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_sincere",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_intelligence",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_funny",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_ambition",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "attractive_partner",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sincere_partner",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "intelligence_partner",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "funny_partner",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "ambition_partner",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "shared_interests_partner",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_attractive_partner",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_sincere_partner",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_intelligence_partner",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_funny_partner",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_ambition_partner",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_shared_interests_partner",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sports",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tvsports",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "exercise",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "dining",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "museums",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "art",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "hiking",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "gaming",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "clubbing",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "reading",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tv",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "theater",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "movies",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "concerts",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "music",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "shopping",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "yoga",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_sports",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_tvsports",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_exercise",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_dining",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_museums",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_art",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_hiking",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_gaming",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_clubbing",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_reading",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_tv",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_theater",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_movies",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_concerts",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_music",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_shopping",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_yoga",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "interests_correlate",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_interests_correlate",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "expected_happy_with_sd_people",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "expected_num_interested_in_me",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "expected_num_matches",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_expected_happy_with_sd_people",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_expected_num_interested_in_me",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_expected_num_matches",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "like",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "guess_prob_liked",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_like",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "d_guess_prob_liked",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "met",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "decision",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "decision_o",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "match",
+                        "type": "integer",
+                        "format": "default"
+                    }
+                ]
+            },
+            "path": "data\\speed-dating.csv",
+            "format": "csv"
+        }
+    ],
+    "sources": [
+        {
+            "title": "SpeedDating",
+            "path": "https://www.openml.org/d/40536"
+        }
+    ],
+    "licences": [
+        {
+            "name": "odc-pddl",
+            "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
+            "path": "http://opendatacommons.org/licenses/pddl/"
+        }
+    ],
+    "title": "Speed dating"
+}
